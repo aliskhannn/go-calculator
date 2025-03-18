@@ -1,3 +1,3 @@
-module projects/calulator
+module github.com/aliskhannn/calculator
 
-go 1.23.4
+go 1.24.0

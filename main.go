@@ -43,9 +43,10 @@ func main() {
 
         if err != nil {
             fmt.Println("Error:", err)
-        } else {
-            fmt.Printf("%v / %v = %v\n", a, b, result)
+            return
         }
+
+        fmt.Printf("%v / %v = %v\n", a, b, result)
     default:
         fmt.Println("Invalid operator")
     }
